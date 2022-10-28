@@ -75,7 +75,7 @@ img {
     width: 100%;
     margin-top: 10px;
     margin-bottom: 10px;
-    background-image: url("./assets/images/austin.jpeg");
+    background-image: url("./assets");
     background-size: 100%;
     background-position: center;
 }
