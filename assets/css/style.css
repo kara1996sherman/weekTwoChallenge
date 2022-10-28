@@ -1,0 +1,122 @@
+
+p{
+    font-size: 14pt;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: center;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    background-color: rgb(225, 125, 70);
+    color: black;
+    padding: 5px;
+    font-size: 16pt;
+}
+
+img {
+    height: 80px;
+    margin: 0px;
+    padding: 10px;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(225, 125, 70);
+    color: black;
+    padding:2px;
+    font-size: 18pt;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.logo a {
+    padding: 15px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+    text-decoration: underline;
+    cursor: pointer;
+    color: black;
+}
+
+.links a {
+    color: black;
+    font-size: 16pt;
+    text-decoration: none;
+    background-color: rgb(225, 125, 70);
+
+}
+
+.hover:hover {
+    background-color: white;
+    transition: background-color 0.5s;
+    cursor: pointer;
+}
+
+.links {
+    list-style: none;
+}
+
+#contactMe{
+    height: 300px;
+    background-color: rgb(225, 125, 70);
+      margin: 0px;
+}
+
+.hero {
+    height: 400px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-image: url(./images/austin-skyline.jpeg);
+    background-size: 100%;
+    background-position: center;
+}
+
+#container {
+    display:grid;
+    grid-template-columns: 30% 30% 30%;
+    column-gap: 10px;
+    row-gap: 10px;
+
+  }
+
+#aboutMe {
+    height: 300px;
+    background-color: rgb(225, 125, 70);
+      margin: 0px;
+      
+}
+
+
+
+#title{
+    color: black;
+    padding-top:20px;
+    font-size: 16pt;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+  
+}
+
+
+
+#projects {
+    height: 300px;
+    background-color: rgb(225, 125, 70);
+      margin: 0px;
+
+   
