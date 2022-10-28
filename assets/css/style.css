@@ -76,7 +76,7 @@ img {
     width: 100%;
     margin-top: 10px;
     margin-bottom: 10px;
-    background-image: url(./images/austin-skyline.jpeg);
+    background-image: url("./assets/images/austin.jpeg");
     background-size: 100%;
     background-position: center;
 }
@@ -108,11 +108,8 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 10px;
-  
+    margin: 10px; 
 }
-
-
 
 #projects {
     height: 300px;
