@@ -1,10 +1,10 @@
-
-p{
+p {
     font-size: 14pt;
     margin-left: 40px;
     margin-right: 40px;
     text-align: center;
 }
+
 .nav {
     display: flex;
     justify-content: space-between;
@@ -28,7 +28,7 @@ img {
     align-items: center;
     background-color: rgb(225, 125, 70);
     color: black;
-    padding:2px;
+    padding: 2px;
     font-size: 18pt;
     font-weight: bold;
     text-transform: uppercase;
@@ -66,62 +66,68 @@ img {
 
 }
 
-.hero {
-    height: 400px;
-    width: 100%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    background-image: url("./assets/images/austin.jpeg");
-    background-size: 100%;
-    background-position: center;
+.hero{
+    height: 356px;
+    
+    background-image: url("/weekTwoChallenge/assets/images/ATX.jpeg");
+    background-size: cover;
+    
 }
 
-
-    #contactMe{
+#contactMe {
     height: 300px;
     background-color: rgb(225, 125, 70);
-      margin: 0px;
+
 }
-
-
-
-
-
-
 
 #aboutMe {
     height: 300px;
     background-color: rgb(225, 125, 70);
-      margin: 0px;
-      
+ 
+
 }
 
-
-
-#title{
+#title {
     color: black;
     background-color: rgb(225, 125, 70);
-    padding-top:20px;
-    padding-bottom:20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     font-size: 16pt;
-    font-weight: bold;
     text-transform: uppercase;
     text-decoration: underline;
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin: 10px; 
+    
+    
 
 }
+
 .container {
-    height: 300px;
+
     background-color: rgb(225, 125, 70);
-      margin: 5px;
-      display:grid;
-      justify-items: center;
-      align-content: center;
+
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
     grid-template-columns: 30% 30% 30%;
     column-gap: 10px;
-    row-gap: 10px;}
+    row-gap: 10px;
+}
 
-
+#cardOne,
+#cardTwo,
+#cardThree,
+#cardFour,
+#cardFive,
+#cardSix,
+#cardSeven,
+#cardEight,
+#cardNine {
+    border: 5px solid black;
+    padding: 5px;
+    height: 50px;
+    width: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
